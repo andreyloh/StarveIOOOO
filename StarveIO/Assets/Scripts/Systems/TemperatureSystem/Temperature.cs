@@ -12,6 +12,6 @@ public class Temperature
         CurrentTemperature = MaxTemperature;
 
         MaxOverTemperature = _maxOverTemperature;
-        CurrentOverTemperature = 0;
+        CurrentOverTemperature = 30;
     }
 }

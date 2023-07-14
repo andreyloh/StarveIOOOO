@@ -47,7 +47,7 @@ public class TemperatureBar : MonoBehaviour, IBar
     public void SetOverMaxValue(int _amount)
     {
         _overTemperatureSlider.maxValue = _amount;
-        _overTemperatureSlider.value = 0;
+        _overTemperatureSlider.value = 30;
     }
 
     public void SetOverCurrentValue(int _amount)
